@@ -8,3 +8,5 @@
 ``sudo chmod -R 777 node-mongodb.sh.x``
 
 ``./node-mongodb.sh.x``
+
+Thank you
