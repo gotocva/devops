@@ -70,6 +70,9 @@ To install mongodb follow below url
 https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-ubuntu/
 
 ```
+use admin
+```
+```
 db.createUser({
   user: "MONGODB_USERNAME",
   pwd: "MONGODB_PASSWORD",
