@@ -96,3 +96,14 @@ db.grantRolesToUser("MONGODB_USERNAME", [
   { role: "clusterAdmin", db: "admin" }
 ])
 ```
+
+```
+sudo nano /etc/mongod.conf
+```
+
+Add or update the security section in the configuration file to include the authMechanism:
+
+```
+security:
+  authorization: enabled
+```
